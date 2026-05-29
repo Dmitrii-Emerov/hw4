@@ -8,5 +8,12 @@ public class Main {
         } else if (age < 18) {
             System.out.println("Не достиг совершеннолетия, нужно немного подождат");
         }
+        System.out.println("Задание 2");
+        int airTemperature = 3;
+        if ( airTemperature < 5){
+            System.out.println("На улице меньше 5 градусов, нужно надеть шапку");
+        }else if (airTemperature > 5){
+            System.out.println("На улице больше 5 градусов, можно идти без шапки");
+        }
     }
 }
