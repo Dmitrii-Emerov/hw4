@@ -16,7 +16,7 @@ public class Main {
             System.out.println("На улице 6 градусов, можно идти без шапки");
         }
         System.out.println("Задание 3");
-        int speed = 50;
+        int speed = 70;
         if (speed > 60){
             System.out.println("Если скорость 70, то придеться заплатить штраф");
         }else if (speed <= 60){
