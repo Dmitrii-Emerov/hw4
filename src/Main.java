@@ -2,26 +2,39 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Домашнне задание");
         System.out.println("Задание 1");
-        int age = 17;
+        int age = 20;
         if (age >= 18) {
-            System.out.println("Если возвраст человека 18 и более, то он совершенолетний");
+            System.out.println("Если возвраст человека " + age + " и более, то он совершенолетний");
         } else if (age < 18) {
             System.out.println("Не достиг совершеннолетия, нужно немного подождат");
         }
         System.out.println("Задание 2");
         int airTemperature = 6;
-        if ( airTemperature < 5){
-            System.out.println("На улице 6 градусов, нужно надеть шапку");
-        }else if (airTemperature > 5){
-            System.out.println("На улице 6 градусов, можно идти без шапки");
+        if (airTemperature < 5) {
+            System.out.println("На улице " + airTemperature + " градусов, нужно надеть шапку");
+        } else if (airTemperature > 5) {
+            System.out.println("На улице " + airTemperature + " градусов, можно идти без шапки");
         }
         System.out.println("Задание 3");
         int speed = 70;
-        if (speed > 60){
-            System.out.println("Если скорость 70, то придеться заплатить штраф");
-        }else if (speed <= 60){
-            System.out.println("Если скорость 50, можно ездить спокойно");
+        if (speed > 60) {
+            System.out.println("Если скорость " + speed + " , то придеться заплатить штраф");
+        } else if (speed <= 60) {
+            System.out.println("Если скорость " + speed + " , можно ездить спокойно");
+        }
+        System.out.println("Задание 4");
+        int agePerson = 17;
+        if (agePerson >= 2 && agePerson <= 4) {
+            System.out.println("Если возраст человека равен " + agePerson + " , то ему нужно ходить в Садик ");
+        }
+        if (agePerson >= 7 && agePerson <= 17) {
+            System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в школу");
+        }
+        if (agePerson >= 18 && agePerson <= 24) {
+            System.out.println("Если возраст человека равен "+ agePerson +", то ему нужно ходить в университет");
+        }
+        if (agePerson > 24){
+            System.out.println("Если возраст человека равен "+ agePerson + ", то ему нужно ходить на раболту");
         }
     }
-
 }
