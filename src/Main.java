@@ -47,5 +47,28 @@ public class Main {
         if (childAge >14){
             System.out.println("Если возраст ребенка выше "+ childAge + " , то ему можно кататься на атракционе без сопровождения взрослого");
         }
+        System.out.println("Задание 6");
+        int peopleTrain = 50;
+        int carriageCapacity = 102;
+        int seatingCapacity = 60;
+        if (peopleTrain <= carriageCapacity && peopleTrain < seatingCapacity){
+            System.out.println("есть сидячие и стоячие места в вагоне");
+        } else if (peopleTrain <= carriageCapacity && peopleTrain >= seatingCapacity) {
+            System.out.println("Остались только стоячие места");
+        }
+        if (peopleTrain > carriageCapacity){
+            System.out.println("Вагон переполнен мест нет");
+        }
+        System.out.println("Задание 7");
+        int one = 34;
+        int two = 35;
+        int three = 33;
+        if (one >= two && one >= three) {
+            System.out.println("one самое большое число");
+        } else if (two >= one && two >= three) {
+            System.out.println("two самое большое число");
+        } else {
+            System.out.println("three самое большое число");
+        }
     }
 }
