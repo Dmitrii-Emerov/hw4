@@ -36,5 +36,16 @@ public class Main {
         if (agePerson > 24){
             System.out.println("Если возраст человека равен "+ agePerson + ", то ему нужно ходить на раболту");
         }
+        System.out.println("Задание 5");
+        int childAge = 15;
+        if (childAge < 5){
+            System.out.println("Если возраст ребенка равен "+ childAge + " , то ему нельзя кататься на атракционе");
+        }
+        if (childAge >= 5 && childAge <=14){
+            System.out.println("Если возраст ребенка равен "+ childAge + " , то ему можно кататься в сопровождении взрослого");
+        }
+        if (childAge >14){
+            System.out.println("Если возраст ребенка выше "+ childAge + " , то ему можно кататься на атракционе без сопровождения взрослого");
+        }
     }
 }
