@@ -37,26 +37,23 @@ public class Main {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить на раболту");
         }
         System.out.println("Задание 5");
-        int childAge = 15;
+        int childAge = 6;
         if (childAge < 5) {
             System.out.println("Если возраст ребенка равен " + childAge + " , то ему нельзя кататься на атракционе");
-        }
-        if (childAge >= 5 && childAge <= 14) {
+        } else if (childAge >= 5 && childAge <= 14) {
             System.out.println("Если возраст ребенка равен " + childAge + " , то ему можно кататься в сопровождении взрослого");
-        }
-        if (childAge > 14) {
+        } else if (childAge > 14) {
             System.out.println("Если возраст ребенка выше " + childAge + " , то ему можно кататься на атракционе без сопровождения взрослого");
         }
         System.out.println("Задание 6");
-        int peopleTrain = 50;
+        int peopleTrain = 103;
         int carriageCapacity = 102;
         int seatingCapacity = 60;
         if (peopleTrain <= carriageCapacity && peopleTrain < seatingCapacity) {
             System.out.println("есть сидячие и стоячие места в вагоне");
         } else if (peopleTrain <= carriageCapacity && peopleTrain >= seatingCapacity) {
             System.out.println("Остались только стоячие места");
-        }
-        if (peopleTrain > carriageCapacity) {
+        }else {
             System.out.println("Вагон переполнен мест нет");
         }
         System.out.println("Задание 7");
