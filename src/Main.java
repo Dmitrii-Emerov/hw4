@@ -16,10 +16,10 @@ public class Main {
             System.out.println("На улице " + airTemperature + " градусов, можно идти без шапки");
         }
         System.out.println("Задание 3");
-        int speed = 70;
+        int speed = 80;
         if (speed > 60) {
             System.out.println("Если скорость " + speed + " , то придеться заплатить штраф");
-        } else if (speed <= 60) {
+        } else {
             System.out.println("Если скорость " + speed + " , можно ездить спокойно");
         }
         System.out.println("Задание 4");
