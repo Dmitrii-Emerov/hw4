@@ -23,17 +23,14 @@ public class Main {
             System.out.println("Если скорость " + speed + " , можно ездить спокойно");
         }
         System.out.println("Задание 4");
-        int agePerson = 17;
+        int agePerson = 25;
         if (agePerson >= 2 && agePerson <= 4) {
             System.out.println("Если возраст человека равен " + agePerson + " , то ему нужно ходить в Садик ");
-        }
-        if (agePerson >= 7 && agePerson <= 17) {
+        } else if (agePerson >= 7 && agePerson <= 17) {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в школу");
-        }
-        if (agePerson >= 18 && agePerson <= 24) {
+        } else if (agePerson >= 18 && agePerson <= 24) {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в университет");
-        }
-        if (agePerson > 24) {
+        } else if (agePerson > 24) {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить на раболту");
         }
         System.out.println("Задание 5");
@@ -53,7 +50,7 @@ public class Main {
             System.out.println("есть сидячие и стоячие места в вагоне");
         } else if (peopleTrain <= carriageCapacity && peopleTrain >= seatingCapacity) {
             System.out.println("Остались только стоячие места");
-        }else {
+        } else {
             System.out.println("Вагон переполнен мест нет");
         }
         System.out.println("Задание 7");
